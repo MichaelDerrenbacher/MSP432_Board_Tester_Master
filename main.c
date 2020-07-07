@@ -93,7 +93,7 @@ void test_ports(void)
     uint8_t port_num;
     uint8_t pin_reading;
 
-    for(port_num = 1; port_num <= 10; port_num++)
+    for(port_num = 1; port_num <= 6; port_num++)
     {
 
         if(port_num & 0x01) // odd port number
